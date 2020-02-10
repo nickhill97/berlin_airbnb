@@ -4,7 +4,7 @@ Project active.
 
 ## Data
 
-The data for the project can be found on [kaggle]https://www.kaggle.com/brittabettendorf/berlin-airbnb-data#listings.csv .
+The data for the project can be found on [kaggle]https://www.kaggle.com/brittabettendorf/berlin-airbnb-data .
 The data was from 6 different csv files:
 
 - Listings Summary
