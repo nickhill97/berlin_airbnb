@@ -33,7 +33,7 @@ I removed many columns I felt were not needed in the model or would have caused 
 - Using the latitude and longitude columns I calculated the distance from the centre and popular tourist attractions.
 - Using the amenities column I created binary columns of amenities I felt may increase/decrease the value of the accomodation.
 
-## Modelling
+### Modelling
 
 I created 3 different models to predict the price:
 
