@@ -1,5 +1,9 @@
 # Berlin Airbnb Project
 
+## Purpose
+
+The purpose of this project is to create a model that estimates the price an accomodation should be advertised for on Airbnb. The goal would be to create a resource that airbnb hosts could input the information of their property and the model would predict how much the property should be placed on airbnb for. The final model has a mean absolute error of $17.17.
+
 ## Data
 
 The data for the project can be found on [kaggle]https://www.kaggle.com/brittabettendorf/berlin-airbnb-data .
@@ -14,15 +18,27 @@ The data was from 6 different csv files:
 
 The data should be downloaded and put in a file inside data/raw.
 
-## Purpose
-
-The purpose of this project is to create a model that estimates the price an accomodation should be advertised for on Airbnb. The goal would be to create a resource that airbnb hosts could input the information of their property and the model would predict how much the property should be placed on airbnb for.
-
 ## Process
 
 ### Exploratory Data Analysis
 
-I began by exploring the data to find useful columns and discover missing values. I created visualisations of the distributions of the features and their relationship with the target price variable. After perfoming exploritory data analysis of each table, I decided to only use the detailed listings table for my modelling. 
+I began by exploring the data to find useful columns and discover missing values. I created visualisations of the distributions of the features and their relationship with the target price variable. Some of the interesting plots:
+
+I used a log scale to visualise the distribution of the price of listings as the data contained many outliers.
+
+<img src='images/price_distribution.png'/>
+
+Using geopandas I plotted the location of the listings. 
+
+<img src='images/listing_locations.png'/>
+
+I plotted the price distributions when seperated by the different categorical features.
+
+<img src='images/price_dist_by_neighbourhood.png'/>
+<img src='images/price_by_property_type.png'/>
+<img src='images/price_by_accomodates.png'/>
+
+After perfoming exploritory data analysis of each table, I decided to only use the detailed listings table for my modelling. 
 
 ### Data Cleaning
 
