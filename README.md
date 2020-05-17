@@ -6,7 +6,7 @@ The purpose of this project is to create a model that estimates the price an acc
 
 ## Data
 
-The data for the project can be found on [kaggle]https://www.kaggle.com/brittabettendorf/berlin-airbnb-data .
+The data for the project can be found on [kaggle](https://www.kaggle.com/brittabettendorf/berlin-airbnb-data).
 The data was from 6 different csv files:
 
 - Listings Summary
