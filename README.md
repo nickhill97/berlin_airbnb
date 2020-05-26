@@ -32,10 +32,8 @@ Using geopandas I plotted the location of the listings.
 
 <img src='images/listing_locations.png'/>
 
-I plotted the price distributions when seperated by the different categorical features.
+I plotted the price distributions when seperated by the different categorical features, for example, comparing the distribution of price for listings that accomodate different numbers of people,
 
-<img src='images/price_dist_by_neighbourhood.png'/>
-<img src='images/price_by_property_type.png'/>
 <img src='images/price_by_accomodates.png'/>
 
 After perfoming exploritory data analysis of each table, I decided to only use the detailed listings table for my modelling. 
